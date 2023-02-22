@@ -1,0 +1,7 @@
+{
+    "training_trials": 2,
+    "testing_trials": 2,
+    "interval_time": 5,
+    "path_number": 0,
+    "instruction": "Reach for the target!"
+}

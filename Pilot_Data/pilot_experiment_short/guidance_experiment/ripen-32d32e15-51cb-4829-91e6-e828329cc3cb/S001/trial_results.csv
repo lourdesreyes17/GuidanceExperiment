@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,interval_time,path_number,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+guidance_experiment,ripen-32d32e15-51cb-4829-91e6-e828329cc3cb,1,1,1,1,10.18177,110.4087,,1,guidance_experiment/ripen-32d32e15-51cb-4829-91e6-e828329cc3cb/S001/trackers/trainee_right_stylus_movement_T001.csv,guidance_experiment/ripen-32d32e15-51cb-4829-91e6-e828329cc3cb/S001/trackers/mentor_left_stylus_movement_T001.csv

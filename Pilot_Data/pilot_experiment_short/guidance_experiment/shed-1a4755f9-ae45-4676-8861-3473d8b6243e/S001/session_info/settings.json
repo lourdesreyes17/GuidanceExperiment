@@ -1,0 +1,9 @@
+{
+    "training_trials": 2,
+    "testing_trials": 2,
+    "delta_time": 5,
+    "path_number": 0,
+    "mentor label": "Mentor Side",
+    "trainee label": "Trainee Side",
+    "train/test label": "Training"
+}

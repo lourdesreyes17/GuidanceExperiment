@@ -1,0 +1,15 @@
+timestamp,log_type,message,stacktrace
+3.368426,Log,[<b><color=#AD477C>UXF</color></b>] Beginning session.,UnityEngine.Debug:Log (object).  UXF.Utilities:UXFDebugLog (string) (at Assets/UXF/Scripts/Etc/Utilities.cs:13).  UXF.Session:Begin (stringstringintSystem.Collections.Generic.Dictionary`2<string object>UXF.Settings) (at Assets/UXF/Scripts/Session.cs:333).  UXF.UI.UIController/<TryBeginSessionFromUISequence>d__43:MoveNext () (at Assets/UXF/Scripts/UI/UIController.cs:421).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  UXF.UI.UIController:TryBeginSessionFromUI () (at Assets/UXF/Scripts/UI/UIController.cs:214).  UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:501).  
+48.94,Log,Collider enter = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:43).  
+48.98,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+75.4,Log,Collider enter = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:43).  
+75.43999,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+111.02,Log,Collider enter = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:43).  
+111.98,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+125.46,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+159.54,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+160.48,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+185.5,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+194.2,Log,Collider exit = NeedleTip,UnityEngine.Debug:Log (object).  StartPointController:OnTriggerExit (UnityEngine.Collider) (at Assets/Scripts/StartPointController.cs:54).  
+275.4354,Log,OnApplicationQuit: Disconnecting from Haptic,UnityEngine.Debug:Log (object).  HapticPlugin:OnApplicationQuit () (at Assets/OpenHaptics/HapticScripts/HapticPlugin.cs:248).  
+275.4354,Log,OnApplicationQuit: Disconnecting from Haptic,UnityEngine.Debug:Log (object).  HapticPlugin:OnApplicationQuit () (at Assets/OpenHaptics/HapticScripts/HapticPlugin.cs:248).  

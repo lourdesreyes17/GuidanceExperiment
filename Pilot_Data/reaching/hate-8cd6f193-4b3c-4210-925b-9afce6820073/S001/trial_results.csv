@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,hiddencursor_movement_location_0,needletip_movement_location_0
+reaching,hate-8cd6f193-4b3c-4210-925b-9afce6820073,1,1,1,1,135.9444,153.2162,reaching/hate-8cd6f193-4b3c-4210-925b-9afce6820073/S001/trackers/hiddencursor_movement_T001.csv,reaching/hate-8cd6f193-4b3c-4210-925b-9afce6820073/S001/trackers/needletip_movement_T001.csv

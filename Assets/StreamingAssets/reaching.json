@@ -1,0 +1,14 @@
+{
+  "training_trials": 2,
+  "testing_trials": 2,
+  "interval_time": 5, //"vmr_angle": 60,
+  "instruction": "Reach for the target!"
+  /*
+  "vmr_angle": 60,
+  "practice_ntrials": 5,
+  "perturbation_ntrials": 3,
+  "deadapt_ntrials": 3,
+  "paths_file_number": 1,
+  "instruction": "Reach for the target!"
+  */
+}

@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,judge-50e1353e-e2c2-4686-ad54-e952b08189d7,1,1,1,1,6.765005,12.52557,0,reaching/judge-50e1353e-e2c2-4686-ad54-e952b08189d7/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/judge-50e1353e-e2c2-4686-ad54-e952b08189d7/S001/trackers/mentor_left_stylus_movement_T001.csv

@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,strut-a76f5b02-447d-4130-b5c8-13f77b714029,1,1,1,1,7.842489,9.9,0,reaching/strut-a76f5b02-447d-4130-b5c8-13f77b714029/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/strut-a76f5b02-447d-4130-b5c8-13f77b714029/S001/trackers/mentor_left_stylus_movement_T001.csv

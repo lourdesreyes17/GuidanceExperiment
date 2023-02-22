@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,interval_time,path_number,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+guidance_experiment,oasis-ad98fde9-4d4e-436d-90ce-e7393917ab5b,1,1,1,1,10.00383,13.37471,5,1,guidance_experiment/oasis-ad98fde9-4d4e-436d-90ce-e7393917ab5b/S001/trackers/trainee_right_stylus_movement_T001.csv,guidance_experiment/oasis-ad98fde9-4d4e-436d-90ce-e7393917ab5b/S001/trackers/mentor_left_stylus_movement_T001.csv

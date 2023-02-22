@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,lunar-8bfd7be2-af3d-455d-b778-2c5a4336fe7e,1,1,1,1,7.364574,10.74277,0,reaching/lunar-8bfd7be2-af3d-455d-b778-2c5a4336fe7e/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/lunar-8bfd7be2-af3d-455d-b778-2c5a4336fe7e/S001/trackers/mentor_left_stylus_movement_T001.csv

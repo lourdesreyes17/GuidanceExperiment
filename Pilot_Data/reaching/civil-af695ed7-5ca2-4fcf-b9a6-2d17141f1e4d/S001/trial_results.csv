@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,right_stylus_movement_location_0,left_stylus_movement_location_0
+reaching,civil-af695ed7-5ca2-4fcf-b9a6-2d17141f1e4d,1,1,1,1,111.5242,230.3,0,reaching/civil-af695ed7-5ca2-4fcf-b9a6-2d17141f1e4d/S001/trackers/right_stylus_movement_T001.csv,reaching/civil-af695ed7-5ca2-4fcf-b9a6-2d17141f1e4d/S001/trackers/left_stylus_movement_T001.csv

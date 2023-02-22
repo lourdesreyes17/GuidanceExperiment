@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,slack-5e55fe0b-41ec-4588-b19d-03f4a3820a80,1,1,1,1,7.4616,10.72,0,reaching/slack-5e55fe0b-41ec-4588-b19d-03f4a3820a80/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/slack-5e55fe0b-41ec-4588-b19d-03f4a3820a80/S001/trackers/mentor_left_stylus_movement_T001.csv

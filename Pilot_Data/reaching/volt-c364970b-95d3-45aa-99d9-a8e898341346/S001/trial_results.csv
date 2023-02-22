@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,volt-c364970b-95d3-45aa-99d9-a8e898341346,1,1,1,1,9.844178,33.38995,0,reaching/volt-c364970b-95d3-45aa-99d9-a8e898341346/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/volt-c364970b-95d3-45aa-99d9-a8e898341346/S001/trackers/mentor_left_stylus_movement_T001.csv

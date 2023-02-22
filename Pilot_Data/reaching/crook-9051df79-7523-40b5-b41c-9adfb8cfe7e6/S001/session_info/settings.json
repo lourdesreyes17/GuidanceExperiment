@@ -1,0 +1,8 @@
+{
+    "vmr_angle": 60,
+    "practice_ntrials": 5,
+    "perturbation_ntrials": 3,
+    "deadapt_ntrials": 3,
+    "paths_file_number": 1,
+    "instruction": "Reach for the target!"
+}

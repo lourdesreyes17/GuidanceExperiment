@@ -1,0 +1,914 @@
+timestamp,log_type,message,stacktrace
+1.947537,Log,[<b><color=#AD477C>UXF</color></b>] Beginning session.,UnityEngine.Debug:Log (object).  UXF.Utilities:UXFDebugLog (string) (at Assets/UXF/Scripts/Etc/Utilities.cs:13).  UXF.Session:Begin (stringstringintSystem.Collections.Generic.Dictionary`2<string object>UXF.Settings) (at Assets/UXF/Scripts/Session.cs:333).  UXF.UI.UIController/<TryBeginSessionFromUISequence>d__43:MoveNext () (at Assets/UXF/Scripts/UI/UIController.cs:421).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  UXF.UI.UIController:TryBeginSessionFromUI () (at Assets/UXF/Scripts/UI/UIController.cs:214).  UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:501).  
+1.947537,Log,First Condition Setting: dt = 5,UnityEngine.Debug:Log (object).  TelementoringExperimentGenerator:Generate (UXF.Session) (at Assets/Scripts/TelementoringExperimentGenerator.cs:35).  UnityEngine.Events.UnityEvent`1<UXF.Session>:Invoke (UXF.Session).  UXF.Session:Begin (stringstringintSystem.Collections.Generic.Dictionary`2<string object>UXF.Settings) (at Assets/UXF/Scripts/Session.cs:336).  UXF.UI.UIController/<TryBeginSessionFromUISequence>d__43:MoveNext () (at Assets/UXF/Scripts/UI/UIController.cs:421).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  UXF.UI.UIController:TryBeginSessionFromUI () (at Assets/UXF/Scripts/UI/UIController.cs:214).  UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:501).  
+1.947537,Log,Second Condition Setting: dt = 6,UnityEngine.Debug:Log (object).  TelementoringExperimentGenerator:Generate (UXF.Session) (at Assets/Scripts/TelementoringExperimentGenerator.cs:45).  UnityEngine.Events.UnityEvent`1<UXF.Session>:Invoke (UXF.Session).  UXF.Session:Begin (stringstringintSystem.Collections.Generic.Dictionary`2<string object>UXF.Settings) (at Assets/UXF/Scripts/Session.cs:336).  UXF.UI.UIController/<TryBeginSessionFromUISequence>d__43:MoveNext () (at Assets/UXF/Scripts/UI/UIController.cs:421).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  UXF.UI.UIController:TryBeginSessionFromUI () (at Assets/UXF/Scripts/UI/UIController.cs:214).  UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:501).  
+1.947537,Log,First Condition Setting: dt = 7,UnityEngine.Debug:Log (object).  TelementoringExperimentGenerator:Generate (UXF.Session) (at Assets/Scripts/TelementoringExperimentGenerator.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Session>:Invoke (UXF.Session).  UXF.Session:Begin (stringstringintSystem.Collections.Generic.Dictionary`2<string object>UXF.Settings) (at Assets/UXF/Scripts/Session.cs:336).  UXF.UI.UIController/<TryBeginSessionFromUISequence>d__43:MoveNext () (at Assets/UXF/Scripts/UI/UIController.cs:421).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  UXF.UI.UIController:TryBeginSessionFromUI () (at Assets/UXF/Scripts/UI/UIController.cs:214).  UnityEngine.EventSystems.EventSystem:Update () (at Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:501).  
+5.800215,Log,dt set to: 5,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+5.800215,Log,Current path: 1,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+5.800215,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+5.812211,Log,Generate ---Path1--- at iteration 0,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+5.812211,Log,Started Coroutine at timestamp : 5.812211,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:51).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  PositionReader:Update () (at Assets/Scripts/PositionReader.cs:140).  
+6.88,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+8.803687,Log,dt set to: 5,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+8.803687,Log,Current path: 1,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+8.803687,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+8.810601,Log,Generate ---Path1--- at iteration 1,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+10.81413,Log,command trainee to move UP,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:104).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+10.81413,Log,Finished Coroutine at timestamp : 10.81413,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:105).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+10.81898,Log,Started Coroutine at timestamp : 10.81898,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:51).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  PositionReader:Update () (at Assets/Scripts/PositionReader.cs:140).  
+15.2,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+15.82176,Log,command trainee to move UP,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:104).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+15.82176,Log,Finished Coroutine at timestamp : 15.82176,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:105).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+17.04348,Log,dt set to: 5,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+17.04348,Log,Current path: 2,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+17.04348,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+17.04911,Log,Generate ---Path2--- at iteration 2,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+17.04911,Log,Started Coroutine at timestamp : 17.04911,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:51).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  PositionReader:Update () (at Assets/Scripts/PositionReader.cs:140).  
+18.24,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+19.56774,Log,dt set to: 5,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+19.56774,Log,Current path: 2,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+19.56774,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+19.57337,Log,Generate ---Path2--- at iteration 3,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+20.32,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+21.60939,Log,dt set to: 6,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+21.60939,Log,Current path: 3,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+21.60939,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+21.61425,Log,Generate ---Path3--- at iteration 4,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+22.04982,Log,command trainee to move UP,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:104).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+22.04982,Log,Finished Coroutine at timestamp : 22.04982,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:105).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+22.0549,Log,Started Coroutine at timestamp : 22.0549,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:51).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  PositionReader:Update () (at Assets/Scripts/PositionReader.cs:140).  
+22.2,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+23.40268,Log,dt set to: 6,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+23.40268,Log,Current path: 3,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+23.40268,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+23.41068,Log,Generate ---Path3--- at iteration 5,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+23.92,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+25.02774,Log,dt set to: 6,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+25.02774,Log,Current path: 1,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+25.02774,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+25.0329,Log,Generate ---Path1--- at iteration 6,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+26.02,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+27.20759,Log,dt set to: 6,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+27.20759,Log,Current path: 1,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+27.20759,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+27.21225,Log,Generate ---Path1--- at iteration 7,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+27.7,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+28.05517,Log,command trainee to move UP,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:104).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+28.05517,Log,Finished Coroutine at timestamp : 28.05517,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:105).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+28.90448,Log,dt set to: 7,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+28.90448,Log,Current path: 2,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+28.90448,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+28.91052,Log,Generate ---Path2--- at iteration 8,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+28.91052,Log,Started Coroutine at timestamp : 28.91052,UnityEngine.Debug:Log (object).  PositionReader/<GuidanceCoroutine>d__8:MoveNext () (at Assets/Scripts/PositionReader.cs:51).  UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator).  PositionReader:Update () (at Assets/Scripts/PositionReader.cs:140).  
+29.34,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+30.56707,Log,dt set to: 7,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+30.56707,Log,Current path: 2,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+30.56707,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+30.57256,Log,Generate ---Path2--- at iteration 9,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+31.08,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+32.20518,Log,dt set to: 7,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+32.20518,Log,Current path: 3,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+32.20518,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+32.21095,Log,Generate ---Path3--- at iteration 10,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+32.62,Log,End of Trial,UnityEngine.Debug:Log (object).  TargetController:OnTriggerEnter (UnityEngine.Collider) (at Assets/Scripts/TargetController.cs:29).  
+33.90719,Log,dt set to: 7,UnityEngine.Debug:Log (object).  PositionReader:UpdateSettings (UXF.Trial) (at Assets/Scripts/PositionReader.cs:150).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+33.90719,Log,Current path: 3
+,UnityEngine.Debug:Log (object).  RandomizePaths:UpdateSettings (UXF.Trial) (at Assets/Scripts/RandomizePaths.cs:55).  UnityEngine.Events.UnityEvent`1<UXF.Trial>:Invoke (UXF.Trial).  UXF.Trial:Begin () (at Assets/UXF/Scripts/Etc/Trial.cs:122).  UXF.Session:BeginNextTrial () (at Assets/UXF/Scripts/Session.cs:414).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:34).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+33.90719,Log,New Trial,UnityEngine.Debug:Log (object).  StartPointController/<Countdown>d__6:MoveNext () (at Assets/Scripts/StartPointController.cs:35).  UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumeratorintptr).  
+33.9119,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.9119,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.91941,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.91941,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.92376,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.92376,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.92952,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.92952,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.93328,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.93328,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.93827,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.93827,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.94291,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.94291,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.9537,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.9537,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.95774,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.95774,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.96196,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.96196,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.96743,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.96743,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.97269,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.97269,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.97757,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.97757,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.98194,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.98194,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.98797,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.98797,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.9925,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.9925,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+33.99718,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+33.99718,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.00182,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.00182,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.00755,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.00755,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.01165,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.01165,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.01619,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.01619,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.0206,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.0206,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.02537,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.02537,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.02957,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.02957,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.03403,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.03403,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.04013,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.04013,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.04613,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.04613,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.0509,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.0509,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.05568,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.05568,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.06013,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.06013,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.06472,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.06472,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.07499,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.07499,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.08126,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.08126,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.08744,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.08744,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.09586,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.09586,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.09827,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.09827,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.1022,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.1022,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.10767,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.10767,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.11171,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.11171,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.11593,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.11593,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.12052,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.12052,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.12553,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.12553,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.13002,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.13002,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.13406,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.13406,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.13919,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.13919,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.14342,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.14342,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.1522,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.1522,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.15588,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.15588,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.16008,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.16008,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.16469,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.16469,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.16938,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.16938,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.17392,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.17392,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.17816,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.17816,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.18253,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.18253,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.18837,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.18837,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.19234,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.19234,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.19664,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.19664,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.20134,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.20134,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.20677,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.20677,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.21093,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.21093,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.21559,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.21559,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.22006,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.22006,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.22473,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.22473,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.22975,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.22975,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.23458,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.23458,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.2396,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.2396,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.24364,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.24364,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.24957,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.24957,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.25357,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.25357,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.25813,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.25813,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.26289,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.26289,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.26762,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.26762,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.27217,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.27217,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.27743,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.27743,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.28157,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.28157,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.28611,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.28611,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.29074,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.29074,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.29508,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.29508,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.29934,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.29934,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.30344,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.30344,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.31006,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.31006,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.31441,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.31441,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.31874,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.31874,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.32342,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.32342,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.32925,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.32925,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.3331,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.3331,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.33775,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.33775,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.34228,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.34228,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.34678,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.34678,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.35479,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.35479,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.35802,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.35802,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.36213,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.36213,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.36723,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.36723,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.37213,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.37213,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.37623,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.37623,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.38064,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.38064,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.38535,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.38535,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.3901,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.3901,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.39439,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.39439,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.39883,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.39883,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.40374,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.40374,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.40973,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.40973,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.41437,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.41437,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.4186,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.4186,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.42338,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.42338,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.4296,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.4296,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.43378,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.43378,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.43844,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.43844,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.44264,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.44264,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.44865,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.44865,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.45264,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.45264,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.45727,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.45727,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.46182,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.46182,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.46644,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.46644,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.47093,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.47093,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.47555,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.47555,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.47992,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.47992,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.48412,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.48412,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.49055,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.49055,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.49498,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.49498,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.49924,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.49924,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.50342,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.50342,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.51004,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.51004,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.51397,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.51397,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.51814,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.51814,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.52332,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.52332,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.52911,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.52911,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.53292,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.53292,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.53742,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.53742,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.54895,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.54895,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.5515,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.5515,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.55921,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.55921,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.56261,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.56261,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.56968,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.56968,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.57397,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.57397,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.57846,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.57846,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.58284,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.58284,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.58806,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.58806,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.59218,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.59218,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.59662,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.59662,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.60108,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.60108,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.60641,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.60641,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.6106,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.6106,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.61495,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.61495,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.61915,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.61915,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.62397,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.62397,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.62986,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.62986,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.63387,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.63387,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.6385,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.6385,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.64259,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.64259,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.64786,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.64786,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.65181,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.65181,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.65646,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.65646,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.66109,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.66109,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.66572,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.66572,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.66999,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.66999,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.67476,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.67476,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.67938,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.67938,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.68346,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.68346,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.68995,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.68995,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.69418,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.69418,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.69854,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.69854,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.70281,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.70281,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.70815,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.70815,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.71236,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.71236,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.71655,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.71655,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.72131,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.72131,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.72622,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.72622,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.73042,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.73042,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.73445,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.73445,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.73981,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.73981,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.74404,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.74404,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.74972,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.74972,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.75415,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.75415,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.76123,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.76123,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.76497,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.76497,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.7695,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.7695,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.77422,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.77422,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.77861,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.77861,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.78376,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.78376,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.78981,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.78981,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.79404,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.79404,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.79942,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.79942,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.80492,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.80492,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.81058,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.81058,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.81511,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.81511,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.81938,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.81938,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.82395,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.82395,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.83007,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.83007,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.83405,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.83405,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.83869,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.83869,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.84301,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.84301,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.84992,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.84992,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.85453,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.85453,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.85918,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.85918,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.86334,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.86334,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.86943,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.86943,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.87339,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.87339,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.87803,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.87803,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.88197,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.88197,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.88672,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.88672,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.89156,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.89156,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.89574,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.89574,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.9,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.9,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.90437,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.90437,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.91086,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.91086,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.91482,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.91482,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.9194,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.9194,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.92418,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.92418,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.92971,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.92971,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.93365,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.93365,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.93874,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.93874,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.94271,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.94271,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.94872,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.94872,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.95321,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.95321,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.95791,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.95791,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.96442,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.96442,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.9699,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.9699,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.97386,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.97386,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.97854,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.97854,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.98256,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.98256,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.98928,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.98928,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.99321,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.99321,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+34.99776,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+34.99776,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.00214,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.00214,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.00771,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.00771,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.01252,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.01252,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.01691,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.01691,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.02798,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.02798,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.03097,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.03097,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.03506,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.03506,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.03991,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.03991,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.0445,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.0445,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.05043,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.05043,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.05516,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.05516,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.0596,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.0596,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.0644,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.0644,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.07001,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.07001,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.07431,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.07431,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.07938,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.07938,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.08341,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.08341,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.08963,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.08963,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.09386,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.09386,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.09826,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.09826,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.10306,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.10306,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.10982,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.10982,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.11404,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.11404,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.1185,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.1185,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.12348,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.12348,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.13002,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.13002,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.13423,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.13423,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.13937,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.13937,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.14405,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.14405,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.14994,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.14994,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.15447,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.15447,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.15946,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.15946,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.16608,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.16608,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.16984,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.16984,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.17485,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.17485,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.17925,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.17925,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.18323,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.18323,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.19017,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.19017,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.19407,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.19407,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.1983,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.1983,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.20277,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.20277,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.20982,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.20982,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.21433,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.21433,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.21932,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.21932,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.22467,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.22467,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.23084,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.23084,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.2357,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.2357,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.24126,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.24126,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.24712,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.24712,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.25144,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.25144,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.25736,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.25736,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.26202,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.26202,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.26766,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.26766,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.27267,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.27267,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  
+35.27735,Log,Generate ---Path3
+--- at iteration 11,UnityEngine.Debug:Log (object).  RandomizePaths:Update () (at Assets/Scripts/RandomizePaths.cs:36).  
+35.27735,Exception,ArgumentException: The Object you want to instantiate is null.,UnityEngine.Object.Instantiate (UnityEngine.Object original) (at <86acb61e0d2b4b36bc20af11093be9a5>:0).  RandomizePaths.Update () (at Assets/Scripts/RandomizePaths.cs:37).  

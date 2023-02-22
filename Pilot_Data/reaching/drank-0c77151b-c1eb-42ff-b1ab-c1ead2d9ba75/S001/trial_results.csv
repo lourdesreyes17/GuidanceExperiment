@@ -1,0 +1,3 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,drank-0c77151b-c1eb-42ff-b1ab-c1ead2d9ba75,1,1,1,1,6.44203,8.34,0,reaching/drank-0c77151b-c1eb-42ff-b1ab-c1ead2d9ba75/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/drank-0c77151b-c1eb-42ff-b1ab-c1ead2d9ba75/S001/trackers/mentor_left_stylus_movement_T001.csv
+reaching,drank-0c77151b-c1eb-42ff-b1ab-c1ead2d9ba75,1,2,1,2,11.66242,19.72,0,reaching/drank-0c77151b-c1eb-42ff-b1ab-c1ead2d9ba75/S001/trackers/trainee_right_stylus_movement_T002.csv,reaching/drank-0c77151b-c1eb-42ff-b1ab-c1ead2d9ba75/S001/trackers/mentor_left_stylus_movement_T002.csv

@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,interval_time,path_number,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+guidance_experiment,guide-5276d2d0-63eb-4b70-94eb-05009f0d984f,1,1,1,1,22.88041,47.47733,,1,guidance_experiment/guide-5276d2d0-63eb-4b70-94eb-05009f0d984f/S001/trackers/trainee_right_stylus_movement_T001.csv,guidance_experiment/guide-5276d2d0-63eb-4b70-94eb-05009f0d984f/S001/trackers/mentor_left_stylus_movement_T001.csv

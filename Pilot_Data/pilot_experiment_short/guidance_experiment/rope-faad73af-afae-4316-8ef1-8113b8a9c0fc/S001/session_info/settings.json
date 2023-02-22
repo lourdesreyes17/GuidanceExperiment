@@ -1,0 +1,8 @@
+{
+    "training_trials": 2,
+    "testing_trials": 2,
+    "interval_time": 5,
+    "path_number": 0,
+    "Mentor instruction": "Mentor Side",
+    "Trainee instruction": "Trainee Side"
+}

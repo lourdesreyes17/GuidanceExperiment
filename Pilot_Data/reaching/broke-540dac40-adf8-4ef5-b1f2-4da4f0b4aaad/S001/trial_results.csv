@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,right_stylus_movement_location_0,left_stylus_movement_location_0
+reaching,broke-540dac40-adf8-4ef5-b1f2-4da4f0b4aaad,1,1,1,1,57.60193,421.139,0,reaching/broke-540dac40-adf8-4ef5-b1f2-4da4f0b4aaad/S001/trackers/right_stylus_movement_T001.csv,reaching/broke-540dac40-adf8-4ef5-b1f2-4da4f0b4aaad/S001/trackers/left_stylus_movement_T001.csv

@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,needletip_movement_location_0
+reaching,stamp-09ae5193-7ded-4e88-b131-1f1351557b7c,1,1,1,1,11.72908,12.52,reaching/stamp-09ae5193-7ded-4e88-b131-1f1351557b7c/S001/trackers/needletip_movement_T001.csv

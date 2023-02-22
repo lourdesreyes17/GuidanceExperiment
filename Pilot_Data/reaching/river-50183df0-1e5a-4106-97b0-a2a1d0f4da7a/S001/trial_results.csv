@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,right_stylus_movement_location_0,left_stylus_movement_location_0
+reaching,river-50183df0-1e5a-4106-97b0-a2a1d0f4da7a,1,1,1,1,8.424706,91.05798,0,reaching/river-50183df0-1e5a-4106-97b0-a2a1d0f4da7a/S001/trackers/right_stylus_movement_T001.csv,reaching/river-50183df0-1e5a-4106-97b0-a2a1d0f4da7a/S001/trackers/left_stylus_movement_T001.csv

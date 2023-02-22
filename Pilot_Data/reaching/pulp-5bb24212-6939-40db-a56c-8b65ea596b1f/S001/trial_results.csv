@@ -1,0 +1,2 @@
+experiment,ppid,session_num,trial_num,block_num,trial_num_in_block,start_time,end_time,vmr_angle,trainee_right_stylus_movement_location_0,mentor_left_stylus_movement_location_0
+reaching,pulp-5bb24212-6939-40db-a56c-8b65ea596b1f,1,1,1,1,8.961666,58.41825,0,reaching/pulp-5bb24212-6939-40db-a56c-8b65ea596b1f/S001/trackers/trainee_right_stylus_movement_T001.csv,reaching/pulp-5bb24212-6939-40db-a56c-8b65ea596b1f/S001/trackers/mentor_left_stylus_movement_T001.csv
