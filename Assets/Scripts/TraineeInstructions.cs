@@ -25,7 +25,7 @@ public class TraineeInstructions : MonoBehaviour
     public void Present(Session session)
     {
         traineeLabel.text = session.settings.GetString("trainee_label");
-        startInstructions.text = "Place stylus on Start Point \n Wait for guidance cues";
+        startInstructions.text = "Place stylus on Start Point \n Wait for guidance cues...";
     }
 
     public void LabelBlock(Block block)
