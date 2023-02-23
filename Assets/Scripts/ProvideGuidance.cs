@@ -13,10 +13,10 @@ public class ProvideGuidance : MonoBehaviour
     public GameObject mentor; //right device
     public GameObject trainee; //left device
     public GameObject mockTrainee; // copy of trainee
-    private Vector3 offset = new Vector3(15,0,0);
+    private Vector3 offset = new Vector3(30,0,0);
 
     // Arduino Variables
-    SerialPort sp = new SerialPort("COM10", 74880); // BAUD rate changed to 74880
+    SerialPort sp = new SerialPort("COM3", 74880); // BAUD rate changed to 74880
 
     // Guidance Coroutine Variables
 
