@@ -2,6 +2,7 @@
   "training_trials": 9,
   "testing_trials": 9,
   "delta_time": 0,
+  "cam_x_pos": 0,
   "path_number": 0,
   "mentor_label": "Mentor Side",
   "trainee_label": "Trainee Side",
