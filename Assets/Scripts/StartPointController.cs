@@ -55,4 +55,12 @@ public class StartPointController : MonoBehaviour
             material.color = red;
         }
     }
+
+    public void PositionStartPoint(Block block)
+    {
+        float z_pos = session.CurrentBlock.settings.GetFloat("start_z");
+        transform.localPosition = new Vector3(0, 0, z_pos);
+        Debug.Log("Start point position: " + transform.position);
+        // transform.position.z = new Vector3(30, 0, z_pos);
+    }
 }

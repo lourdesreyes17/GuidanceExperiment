@@ -171,7 +171,7 @@ public class HapticPlugin : MonoBehaviour  {
 	// Updated every frame.
 	Matrix4x4 stylusMatrixWorld;
 	public Vector3 stylusPositionWorld;
-	Vector3 stylusVelocityWorld;
+	public Vector3 stylusVelocityWorld;
 	public Quaternion stylusRotationWorld;
 
 	private GameObject[] touchableObjects;

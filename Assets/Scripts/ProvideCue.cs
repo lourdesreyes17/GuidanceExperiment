@@ -61,7 +61,7 @@ public class ProvideCue : MonoBehaviour
         guidanceCue = cueNum.ToString();
         //sp.Write(guidanceCue);
 
-
+        /*
         // Optional Debug Logs 
         Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
@@ -73,11 +73,11 @@ public class ProvideCue : MonoBehaviour
         Debug.Log("index: " + maxIdx);
         Debug.Log("absolute max: " + posDiff[maxIdx]);
         Debug.Log("cue: " + guidanceCue);
-        
+        */
         // END COROUTINE and turn CR_running off
         yield return new WaitForSeconds(deltaTime);
         CR_running = false;
-        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+        //Debug.Log("Finished Coroutine at timestamp : " + Time.time);
 
     }
 

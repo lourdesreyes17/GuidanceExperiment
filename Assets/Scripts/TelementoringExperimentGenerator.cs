@@ -15,16 +15,22 @@ public class TelementoringExperimentGenerator : MonoBehaviour
     {
         // generate six blocks
         // get training and testing trial amounts
+        int nPretrainingTrials = session.settings.GetInt("pretraining_trials");
         int nTrainingTrials = session.settings.GetInt("training_trials");
         int nTestingTrials = session.settings.GetInt("testing_trials");
 
-        // 1. training block for first condition
-        // create block and set delta time according to file number
-        Block firstConditionTraining = session.CreateBlock(nTrainingTrials);
-        firstConditionTraining.settings.SetValue("train_test_label", "Training");
+        // create blocks 1: pretraining, 2: training, 3: testing
+        Block pretrainingBlock = session.CreateBlock(nPretrainingTrials);
+        pretrainingBlock.settings.SetValue("train_test_label", "Pretraining");
+        pretrainingBlock.settings.SetValue("start_z", 0); // change start point to have 0 z position
+        //pretrainingBlock.settings.SetValue("table_set_active", false); // setting .json: "table_set_active": true,
+
+
+        Block trainingBlock = session.CreateBlock(nTrainingTrials);
+        trainingBlock.settings.SetValue("train_test_label", "Training");
         
-        Block firstConditionTesting = session.CreateBlock(nTestingTrials);
-        firstConditionTesting.settings.SetValue("train_test_label", "Testing");
+        Block testingBlock = session.CreateBlock(nTestingTrials);
+        testingBlock.settings.SetValue("train_test_label", "Testing");
 
     }
 }

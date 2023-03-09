@@ -457,6 +457,7 @@
 "Assets/UXF/Scripts/Trackers/MouseScreenTracker.cs"
 "Assets/UXF/Scripts/Trackers/MouseWorldTracker.cs"
 "Assets/UXF/Scripts/Trackers/PositionRotationTracker.cs"
+"Assets/UXF/Scripts/Trackers/PositionVelocityTracker.cs"
 "Assets/UXF/Scripts/UI/ClickOutsidePanelEvent.cs"
 "Assets/UXF/Scripts/UI/DraggableUI.cs"
 "Assets/UXF/Scripts/UI/ExperimentProfileSelector.cs"

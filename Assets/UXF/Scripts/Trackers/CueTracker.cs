@@ -6,7 +6,7 @@ namespace UXF
     public class CueTracker : Tracker
     {
         public override string MeasurementDescriptor => "guidance_cue";
-        public override IEnumerable<string> CustomHeader => new string[] { "cue_num"};
+        public override IEnumerable<string> CustomHeader => new string[] {"cue_num"};
 
         private ProvideCue provideCue;
 
