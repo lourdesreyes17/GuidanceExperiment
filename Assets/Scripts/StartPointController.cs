@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// add the UXF namespace     
 using UXF; 
 
 public class StartPointController : MonoBehaviour
@@ -27,19 +26,22 @@ public class StartPointController : MonoBehaviour
 
     IEnumerator Countdown()
     {
-        //Debug.Log("Started Coroutine at timestamp : " + Time.time);
         yield return new WaitForSeconds(0.5f); // coroutine does not take affect until 0.5 seconds
-        //Debug.Log("Finished Coroutine at timestamp : " + Time.time);
         material.color = green;
-        session.BeginNextTrial(); // <-- new
-        Debug.Log("New Trial");
+
+        if (transform.parent.name == "Mentor Side")
+        {
+            session.BeginNextTrial(); 
+            Debug.Log("New Trial");
+        }
+        
     }
 
     /// OnTriggerEnter is called when the Collider 'other' enters the trigger.
     void OnTriggerEnter(Collider other)
     {
         // only do something when we are NOT currently in a trial.
-        if (other.name == "NeedleTip" & !session.InTrial) // < -- new
+        if (other.name == "NeedleTip" & !session.InTrial)
         {
             material.color = amber;
             StartCoroutine(Countdown());
@@ -61,6 +63,12 @@ public class StartPointController : MonoBehaviour
         float z_pos = session.CurrentBlock.settings.GetFloat("start_z");
         transform.localPosition = new Vector3(0, 0, z_pos);
         Debug.Log("Start point position: " + transform.position);
-        // transform.position.z = new Vector3(30, 0, z_pos);
+    }
+
+    public void ResetStartPoint(Block block)
+    {
+        float z_pos = session.settings.GetFloat("start_z");
+        transform.localPosition = new Vector3(0, 0, z_pos);
+        Debug.Log("Reset start point");
     }
 }

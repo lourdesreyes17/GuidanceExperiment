@@ -1,10 +1,11 @@
 {
   "pretraining_trials": 2,
-  "training_trials": 16,
-  "testing_trials": 24,
+  "training_trials": 8,
+  "testing_trials": 8,
   "path_number": 0,
   "target_x": 0,
   "target_y": 0,
+  "target_z": 0,
   "start_z": 2.5,
   "train_test_label": "Train/Test"
 }

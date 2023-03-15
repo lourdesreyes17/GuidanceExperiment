@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
+using System.Linq;
 
 using UXF;
 
@@ -20,6 +21,8 @@ public class RandomizePaths : MonoBehaviour
 
     private Vector3 offset = new Vector3(30f, 0f, 0f);
 
+    private int[] trialList = { 1, 2, 3, 4, 5, 6, 13, 14, 15, 16, 17, 18, 19, 20, 21};
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -36,10 +39,16 @@ public class RandomizePaths : MonoBehaviour
 
         //mentor
         pathGameObject = Instantiate(Resources.Load(currentPathString, typeof(GameObject))) as GameObject;
-        //trainee
-        traineePathGameObject = Instantiate(Resources.Load(currentPathString, typeof(GameObject))) as GameObject;
-        traineePathGameObject.transform.position = traineePathGameObject.transform.position + offset;
 
+        Debug.Log("TRIAL: " + trial.number);
+        //trainee
+        if (trialList.Contains(trial.number))
+        {
+            Debug.Log("Trial in list");
+            traineePathGameObject = Instantiate(Resources.Load(currentPathString, typeof(GameObject))) as GameObject;
+            traineePathGameObject.transform.position = traineePathGameObject.transform.position + offset;
+        }
+        
         // use settings.Get*() to access settings (independent variables)
         session.CurrentTrial.settings.SetValue("path_number", pathNum);
         Debug.Log("Current path: " + pathNum);
@@ -48,7 +57,12 @@ public class RandomizePaths : MonoBehaviour
     public void RemovePath(Trial trial)
     {
         Destroy(pathGameObject);
-        Destroy(traineePathGameObject);
+
+        if (trialList.Contains(trial.number))
+        {
+            Destroy(traineePathGameObject);
+        }
+
         pnum++;
     }
 }
