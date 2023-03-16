@@ -45,8 +45,11 @@ public class PositionTarget : MonoBehaviour
         session.CurrentTrial.settings.SetValue("target_x", currentXVal);
         session.CurrentTrial.settings.SetValue("target_y", currentYVal);
         session.CurrentTrial.settings.SetValue("target_z", currentZVal);
-        Debug.Log("Target x,y: " + currentXVal + "," + currentYVal);
-        Debug.Log("Target x,y: " + currentXVal + "," + currentYVal + "," + currentZVal);
+        
+
+        Debug.Log("Target position:" + traineeTarget.transform.localPosition);
+
+        Debug.Log("Target local position: " + traineeTarget.transform.position);
 
         pnum++;
     }

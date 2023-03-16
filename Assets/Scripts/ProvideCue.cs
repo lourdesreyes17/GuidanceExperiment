@@ -25,7 +25,7 @@ public class ProvideCue : MonoBehaviour
     private bool firstCR = true;
     private bool showMentor = false;
 
-    private int[] trialList = { 1, 2, 4, 5, 6, 13, 14, 15, 16, 17, 18, 19, 20, 21 }; //3,
+    private int[] trialList = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 }; //3,
 
     // Arduino Variables
     SerialPort sp = new SerialPort("COM10", 74880); // BAUD rate changed to 74880
@@ -97,8 +97,8 @@ public class ProvideCue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mockTrainee.transform.position = trainee.transform.localPosition; 
-        
+        mockTrainee.transform.position = trainee.transform.position - offset;
+
         if (showMentor)
         {
             mockMentor.transform.position = mentor.transform.position + offset;

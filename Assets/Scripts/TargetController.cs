@@ -12,10 +12,10 @@ public class TargetController : MonoBehaviour
     // reference to the UXF Session - so we can end the trial.
     public Session session;
 
-    private int[] trialList = { 1, 2, 4, 13, 14, 15, 16, 17, 18, 19, 20, 21 }; //3, 5, 6
+    private int[] trialList = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 }; //3, 5, 6
 
     // define 3 public variables - we can then assign their color values in the inspector.
-    public Material blue;
+    public Material target;
     public Material transparent;
     public Material green;
 
@@ -28,14 +28,14 @@ public class TargetController : MonoBehaviour
 
         if (transform.parent.name == "Mentor Side")
         {
-            mainMaterial = blue;
+            mainMaterial = target;
         }
     }
 
     IEnumerator Countdown()
     {
         GetComponent<MeshRenderer>().material = green;
-        yield return new WaitForSeconds(1f); // coroutine does not take affect until 0.5 seconds
+        yield return new WaitForSeconds(0.75f); // coroutine does not take affect until 0.5 seconds
         
 
         if (session.InTrial & transform.parent.name == "Trainee Side")
@@ -76,7 +76,7 @@ public class TargetController : MonoBehaviour
         }
         else
         {
-            mainMaterial = blue;
+            mainMaterial = target;
         }
 
         GetComponent<MeshRenderer>().material = mainMaterial;

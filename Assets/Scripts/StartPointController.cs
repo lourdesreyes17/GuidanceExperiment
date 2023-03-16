@@ -10,7 +10,7 @@ public class StartPointController : MonoBehaviour
     public Session session; 
 
     // define 3 public variables - we can then assign their color values in the inspector.
-    public Color red;
+    public Color startPoint;
     public Color amber;
     public Color green;
 
@@ -54,7 +54,7 @@ public class StartPointController : MonoBehaviour
         if (other.name == "NeedleTip")
         {
             StopAllCoroutines();
-            material.color = red;
+            material.color = startPoint;
         }
     }
 
@@ -62,7 +62,8 @@ public class StartPointController : MonoBehaviour
     {
         float z_pos = session.CurrentBlock.settings.GetFloat("start_z");
         transform.localPosition = new Vector3(0, 0, z_pos);
-        Debug.Log("Start point position: " + transform.position);
+        Debug.Log("Start point position: " + transform.transform.localPosition);
+        Debug.Log("Start point position: " + transform.transform.position);
     }
 
     public void ResetStartPoint(Block block)

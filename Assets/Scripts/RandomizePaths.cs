@@ -21,7 +21,7 @@ public class RandomizePaths : MonoBehaviour
 
     private Vector3 offset = new Vector3(30f, 0f, 0f);
 
-    private int[] trialList = { 1, 2, 3, 4, 5, 6, 13, 14, 15, 16, 17, 18, 19, 20, 21};
+    private int[] trialList = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21};
     
     // Start is called before the first frame update
     void Start()

@@ -8,7 +8,7 @@ public class TraineeInstructions : MonoBehaviour
 {
     public Text blockLabel;
     public Text trialLabel; // indicates trial and condition number for each trial
-    public Text startInstructions; // tells trainee to place stylus at start point
+    public Text instructions; // tells trainee to place stylus at start point
 
     public Session session;
 
@@ -23,12 +23,18 @@ public class TraineeInstructions : MonoBehaviour
     {
         int trialNum = session.currentTrialNum;
         trialLabel.text = "Trial " + trialNum.ToString();
-        startInstructions.text = "";
+        instructions.text = "";
+
+        if (trialNum == 1 | trialNum == 2)
+        {
+            instructions.text = "Reach for Target (red)";
+        }
     }
 
     public void InstructToStart(Trial trial)
     {
-        startInstructions.text = "Place stylus on Start Point \n Wait for guidance cues...";
+        instructions.text = "Place stylus on Start Point (blue) \n Wait for guidance cues...";
+
     }
 
 }

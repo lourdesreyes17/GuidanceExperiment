@@ -1,5 +1,5 @@
 {
-  "pretraining_trials": 2,
+  "pretraining_trials": 6,
   "training_trials": 8,
   "testing_trials": 8,
   "path_number": 0,
